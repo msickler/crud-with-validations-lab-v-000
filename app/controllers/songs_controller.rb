@@ -37,5 +37,5 @@ class SongsController < ApplicationController
 		Song.find(params[:id]).delete
 		redirect_to songs_path
 	end
-  
+
 end
